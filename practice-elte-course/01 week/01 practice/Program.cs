@@ -5,24 +5,25 @@ class Program
 
     static void Main()
     {
-        programm_i();
+        programm_d();
     }
 
     static void programm_a()
     {
         // task 01
-        int length, width;
+        int length, width, area, perimeter;
         Console.Write("Length (int):");
         length = Convert.ToInt16(Console.ReadLine());
 
         Console.Write("Width (int):");
         width = Convert.ToInt16(Console.ReadLine());
 
-        string area = String.Format("Area = {0} x {1} = {2}", length, width, length * width);
-        string perimeter = String.Format("Perimeter = 2 x ( {0} + {1} ) = {2}", length, width, 2 * (length + width));
+        area = length * width;
+        perimeter = 2 * (length + width);
 
-        Console.WriteLine(area);
-        Console.WriteLine(perimeter);
+
+        Console.WriteLine($"Area = {length} x {width} = {area}");
+        Console.WriteLine($"Perimeter = 2 x ({length} + {width}) = {perimeter}");
     }
 
     static void programm_b()
@@ -77,14 +78,16 @@ class Program
     static void programm_d()
     {
         // task 04
-        double rate, distance;
+        double rate, distance, consumed;
         Console.Write("Petrol usage (l/km):");
         rate = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Distance (km):");
         distance = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Petron consumed (l): {0:0.00}\n", rate * distance);
+        consumed = rate * distance;
+
+        Console.Write($"Petron consumed (l): {consumed:0.00}\n");
     }
 
     static void programm_e()
@@ -100,22 +103,22 @@ class Program
         each = apples / kids;
         leftover = apples % kids;
 
-        Console.WriteLine("Each kid gets {0} with {1} leftover", each, leftover);
+        Console.Write($"Each kid gets {each} with {leftover} leftover\n");
     }
 
     static void programm_f()
     {
         // task 06
-        int a, b;
+        int a, b, smaller;
         Console.Write("A (int):");
         a = Convert.ToInt16(Console.ReadLine());
 
         Console.Write("B (int):");
         b = Convert.ToInt16(Console.ReadLine());
 
-        int smaller = a > b ? b : a;
+        smaller = a > b ? b : a;
 
-        Console.Write("The smaller value is: {0}", smaller);
+        Console.Write($"The smaller value is: {smaller}\n");
     }
 
 
@@ -141,6 +144,7 @@ class Program
         // task 08
         int a, b;
         string? buffer;
+        string[] splitted_buffer;
         Console.Write("Enter two integers separated by a space:");
 
         buffer = Console.ReadLine();
@@ -148,7 +152,7 @@ class Program
         {
             buffer = "";
         }
-        string[] splitted_buffer = buffer.Split(" ");
+        splitted_buffer = buffer.Split(" ");
 
         a = Convert.ToInt16(splitted_buffer[0]);
         b = Convert.ToInt16(splitted_buffer[1]);
@@ -166,6 +170,7 @@ class Program
     static void programm_i()
     {
         // task 09
+        int longest_word_index, longest_word_length;
         string? buffer;
         string[] words;
 
@@ -177,16 +182,15 @@ class Program
 
         words = buffer.Split(" ");
 
-
-        int longest_word_index = 0;
-        int lognest_word_length = 0;
+        longest_word_index = 0;
+        longest_word_length = 0;
 
         for (int i = 0; i < words.Length; i++)
         {
-            if (words[i].Length > lognest_word_length)
+            if (words[i].Length > longest_word_length)
             {
                 longest_word_index = i;
-                lognest_word_length = words[i].Length;
+                longest_word_length = words[i].Length;
             }
         }
 
@@ -207,8 +211,6 @@ class Program
         Console.Write("C (double):");
         c = Convert.ToDouble(Console.ReadLine());
 
-
-
         discriminant = (b * b) - (4 * a * c);
         if (discriminant < 0)
         {
@@ -218,13 +220,13 @@ class Program
 
         if (discriminant == 0)
         {
-            Console.Write("{0}\n", ((b * (-1)) / (2 * a)));
+            Console.Write($"{(b * (-1)) / (2 * a)}\n");
             return;
         }
 
         Console.Write("{0}, {1}\n",
-            (((b * (-1)) - discriminant) / (2 * a)),
-            (((b * (-1)) + discriminant) / (2 * a))
+            ((b * (-1)) - discriminant) / (2 * a),
+            ((b * (-1)) + discriminant) / (2 * a)
         );
 
     }
