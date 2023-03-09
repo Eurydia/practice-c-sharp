@@ -10,6 +10,7 @@ class Program
 
     static void programm_a()
     {
+        // task 01
         int length, width;
         Console.Write("Length (int):");
         length = Convert.ToInt16(Console.ReadLine());
@@ -26,6 +27,7 @@ class Program
 
     static void programm_b()
     {
+        // task 02
         int a, b;
         Console.Write("A (int):");
         a = Convert.ToInt16(Console.ReadLine());
@@ -42,6 +44,7 @@ class Program
 
     static void programm_c()
     {
+        // task 03
         int a, b, c;
         int min, med, max;
         Console.Write("A (int):");
@@ -73,6 +76,7 @@ class Program
 
     static void programm_d()
     {
+        // task 04
         double rate, distance;
         Console.Write("Petrol usage (l/km):");
         rate = Convert.ToDouble(Console.ReadLine());
@@ -85,6 +89,23 @@ class Program
 
     static void programm_e()
     {
+        // task 05
+        int kids, apples, each, leftover;
+        Console.Write("Kids (int):");
+        kids = Convert.ToInt16(Console.ReadLine());
+
+        Console.Write("Apples (int):");
+        apples = Convert.ToInt16(Console.ReadLine());
+
+        each = apples / kids;
+        leftover = apples % kids;
+
+        Console.WriteLine("Each kid gets {0} with {1} leftover", each, leftover);
+    }
+
+    static void programm_f()
+    {
+        // task 06
         int a, b;
         Console.Write("A (int):");
         a = Convert.ToInt16(Console.ReadLine());
@@ -98,13 +119,14 @@ class Program
     }
 
 
-    static void programm_f()
+    static void programm_g()
     {
+        // task 07
         int n;
         Console.Write("N (int):");
         n = Convert.ToInt16(Console.ReadLine());
 
-        if (n > 100 && n < 999)
+        if (n > 99 && n < 999)
         {
             Console.Write("{0} has three digits \n", n);
         }
@@ -114,35 +136,38 @@ class Program
         }
     }
 
-    static void programm_g()
+    static void programm_h()
     {
+        // task 08
         int a, b;
-        Console.Write("Enter two integers separated by a space:");
         string? buffer;
+        Console.Write("Enter two integers separated by a space:");
 
         buffer = Console.ReadLine();
         if (buffer == null)
         {
             buffer = "";
         }
-        int[] int_list = Array.ConvertAll(buffer.Split(" "), int.Parse);
+        string[] splitted_buffer = buffer.Split(" ");
 
-        a = int_list[0];
-        b = int_list[1];
+        a = Convert.ToInt16(splitted_buffer[0]);
+        b = Convert.ToInt16(splitted_buffer[1]);
 
         if (a % 2 == 1 || b % 2 == 1)
         {
-            Console.Write("There is an ood number\n");
+            Console.Write("There is an od number\n");
         }
         else
         {
-            Console.Write("There is NOT an ood number\n");
+            Console.Write("There is NOT an odd number\n");
         }
     }
 
-    static void programm_h()
+    static void programm_i()
     {
+        // task 09
         string? buffer;
+        string[] words;
 
         buffer = Console.ReadLine();
         if (buffer == null)
@@ -150,7 +175,9 @@ class Program
             buffer = "";
         }
 
-        string[] words = buffer.Split(" ");
+        words = buffer.Split(" ");
+
+
         int longest_word_index = 0;
         int lognest_word_length = 0;
 
@@ -159,15 +186,18 @@ class Program
             if (words[i].Length > lognest_word_length)
             {
                 longest_word_index = i;
+                lognest_word_length = words[i].Length;
             }
         }
 
-        Console.Write("{0}\n", words[longest_word_index]);
+        Console.Write($"{words[longest_word_index]}\n");
     }
 
-    static void programm_i()
+    static void programm_j()
     {
-        double a, b, c;
+        // task 10
+        double a, b, c, discriminant;
+
         Console.Write("A (double):");
         a = Convert.ToDouble(Console.ReadLine());
 
@@ -178,7 +208,8 @@ class Program
         c = Convert.ToDouble(Console.ReadLine());
 
 
-        double discriminant = (b * b) - (4 * a * c);
+
+        discriminant = (b * b) - (4 * a * c);
         if (discriminant < 0)
         {
             Console.Write("No solution\n");
