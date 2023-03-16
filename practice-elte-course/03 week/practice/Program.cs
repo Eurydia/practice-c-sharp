@@ -1,4 +1,6 @@
-﻿class Programm
+﻿using System;
+using System.Linq;
+class Programm
 {
     static void compute_factorial()
     {
