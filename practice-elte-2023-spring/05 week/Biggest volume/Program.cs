@@ -21,14 +21,20 @@ class Program
 {
     static void Main()
     {
-        int N, curr, total = 0;
+        int N, total = 0;
 
         N = Convert.ToInt32(Console.ReadLine());
 
-        for (int l = 0; l < N; l++)
+        int[] cubes = new int[N];
+
+        for (int i = 0; i < N; i++)
         {
-            curr = Convert.ToInt32(Console.ReadLine());
-            total = total + (curr * curr * curr);
+            cubes[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+        foreach (int cube in cubes)
+        {
+            total = total + (cube * cube * cube);
         }
 
         Console.Write($"{total}\n");
