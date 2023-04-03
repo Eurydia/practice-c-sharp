@@ -14,10 +14,15 @@ The next N lines contain each the length of the side of a cube (1≤L≤100).
 The frst line of the standard output should contain the biggest possible volume.
 
 ## Example
+
 **Input**
+
 3
+
 2
+
 3
+
 4
 
 **Output**

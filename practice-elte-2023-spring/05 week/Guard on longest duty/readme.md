@@ -18,10 +18,15 @@ The frst line of the standard output should contain the number of days that the 
 **Input**
 
 6 5
+
 1 3
+
 6 6
+
 1 2
+
 2 3
+
 3 4
 
 **Output**

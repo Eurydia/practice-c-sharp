@@ -1,4 +1,3 @@
-
 # Births of graduates by seasons
 
 A university stores information of its graduates: the birth date (year, month, day), the start year of the university studies and the year of graduation.
@@ -16,17 +15,22 @@ The fourth number is the start year (2000≤S<2020), and the last number is the 
 The first line of the standard output should contain the count of graduates born in
 spring, summer, autumn and winter (in this order).
 
-
 ## Example
 
 **Input**
 
 6
+
 1980 1 1 2007 2012
+
 1970 6 2 2007 2012
+
 1999 12 1 2007 2012
+
 1982 10 1 2000 2005
+
 1982 9 9 2000 2012
+
 1982 1 1 2000 2005
 
 **Output**

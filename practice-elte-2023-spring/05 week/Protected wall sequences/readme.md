@@ -1,4 +1,3 @@
-
 # Protected Wall Sequences
 
 There are N guarding posts on the Great Wall of China.
@@ -23,14 +22,23 @@ The frst line of the standard output should contain the count of protected wall 
 **Input**
 
 15 9
+
 6
+
 3
+
 12
+
 11
+
 4
+
 5
+
 8
+
 15
+
 14
 
 **Output**

@@ -22,12 +22,19 @@ It should contain the word “YES”, if there is a bus that starts its route in
 
 **Input** 
 7
+
 Budapest -1 480
+
 Dunaujvaros 549 550
+
 Paks 580 582
+
 Szekszard -1 600
+
 Szekszard 604 605
+
 Mohacs 650 9999
+
 Mohacs 655 9999
 
 **Output**

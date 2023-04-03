@@ -1,8 +1,7 @@
 
 # Stormy days
 
-The organizers of a sailing competition measured the speed of wind for N days at Balaton-
-füred. 
+The organizers of a sailing competition measured the speed of wind for N days at Balatonfüred. 
 A sailing competition should not be held in smooth winds, nor in stormy winds. 
 In a storm, the speed of wind is more than 100 km/h. 
 There is only one round each day of the competition, and there are K rounds.
@@ -21,16 +20,27 @@ The frst line of the standard output should contain the count of days with a sto
 ## Example
 
 **Input**
+
 10 3
+
 50
+
 40
+
 0
+
 5
+
 0
+
 80
+
 70
+
 90
+
 100
+
 120
 
 **Output**

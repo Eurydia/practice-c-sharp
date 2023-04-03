@@ -20,10 +20,15 @@ The first line of the standard output should contain the maximum number of passe
 **Input**
 
 5
+
 5 0
+
 3 4
+
 0 4
+
 2 0
+
 0 2
 
 **Output**

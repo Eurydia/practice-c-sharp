@@ -25,12 +25,19 @@ The frst line of the standard output should contain one number: the total amount
 
 **Input**
 7
+
 11 10 1 12345
+
 11 50 -2 10000
+
 12 10 -1 12345
+
 23 10 1 24680
+
 23 11 -2 5000
+
 23 15 1 13579
+
 23 20 1 98765
 
 **Output**
