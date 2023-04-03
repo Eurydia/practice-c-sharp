@@ -1,13 +1,4 @@
-﻿// 7
-// Budapest -1 480
-// Dunaujvaros 549 550
-// Paks 580 582
-// Szekszard 9 600
-// Szekszard 604 605
-// Mohacs 650 9999
-// Mohacs 655 999
-
-class Program
+﻿class Program
 {
     static void Main()
     {

@@ -1,10 +1,4 @@
-﻿// 5
-// 5 0
-// 3 4
-// 0 4
-// 2 0
-// 0 2
-struct Data
+﻿struct Data
 {
     public int start { get; }
     public int end { get; }

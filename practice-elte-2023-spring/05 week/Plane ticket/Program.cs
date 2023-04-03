@@ -1,13 +1,4 @@
-﻿// 6 
-// 50 30000
-// 1900 200000
-// 2000 150000
-// 900 38000
-// 600 150000
-// 2100 30000
-
-
-public struct Ticket
+﻿public struct Ticket
 {
     public int distance { get; }
     public int price { get; }

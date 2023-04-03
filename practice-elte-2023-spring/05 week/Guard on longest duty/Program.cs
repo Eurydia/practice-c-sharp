@@ -1,11 +1,4 @@
-﻿// 6 5
-// 1 3
-// 6 6
-// 1 2
-// 2 3
-// 3 4
-
-struct Guard
+﻿struct Guard
 {
     public int start { get; }
     public int end { get; }

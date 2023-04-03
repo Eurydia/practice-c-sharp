@@ -1,17 +1,4 @@
-﻿using System;
-
-// 15 9
-// 6
-// 3
-// 12
-// 11
-// 4
-// 5
-// 8
-// 15
-// 14
-
-class Programm
+﻿class Programm
 {
     static void Main()
     {
