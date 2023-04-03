@@ -7,7 +7,7 @@ Write a program that decides whether there exists a bus that starts its route in
 
 ## Input
 
-The frst line of the standard input contains the count of lines of the bus (1≤N≤100).
+The frst line of the standard input contains the count of lines of the bus (1 $\le$ N $\le$ 100).
 The next N lines contain the name of a town (without accents), the arrival and departure time, separated by spaces.
 Time is given in minutes within the day, so 24*60 is the maximum value – all buses arrive before midnight.
 There is “-1” if the arrival is not interpretable, and “9999” if the departure is not interpretable.
@@ -21,25 +21,23 @@ It should contain the word “YES”, if there is a bus that starts its route in
 ## Example
 
 **Input** 
+
+```
 7
-
 Budapest -1 480
-
 Dunaujvaros 549 550
-
 Paks 580 582
-
 Szekszard -1 600
-
 Szekszard 604 605
-
 Mohacs 650 9999
-
 Mohacs 655 9999
+```
 
 **Output**
 
+```
 YES
+```
 
 **Limits**
 

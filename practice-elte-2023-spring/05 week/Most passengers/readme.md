@@ -8,8 +8,8 @@ Write a program that gives the maximum number of passengers.
 
 ## Input
 
-The frst line of the standard input contains the count of stations (1≤N≤100).
-The next N lines contain the count of people who got on and of (0≤On,Off≤50).
+The frst line of the standard input contains the count of stations (1 $\le$ N $\le$ 100).
+The next N lines contain the count of people who got on and of (0 $\le$ On,Off $\le$ 50).
 
 ## Output
 
@@ -19,21 +19,20 @@ The first line of the standard output should contain the maximum number of passe
 
 **Input**
 
+```
 5
-
 5 0
-
 3 4
-
 0 4
-
 2 0
-
 0 2
+```
 
 **Output**
 
+```
 5
+```
 
 **Limits**
 
@@ -41,4 +40,4 @@ Time limit: 0.1 second
 
 Memory limit: 32 MB
 
-Evaluation: In 40% of tests, the count of data is ≤20
+Evaluation: In 40% of tests, the count of data is  $\le$ 20

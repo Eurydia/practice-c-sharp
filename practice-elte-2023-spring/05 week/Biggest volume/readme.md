@@ -6,8 +6,8 @@ Write a program that gives the volume of the biggest object that can be built fr
 
 ## Input
 
-The frst line of the standard input contains the count of cubes (1≤N≤100). 
-The next N lines contain each the length of the side of a cube (1≤L≤100).
+The frst line of the standard input contains the count of cubes (1 $\le$ N $\le$ 100). 
+The next N lines contain each the length of the side of a cube (1 $\le$ L $\le$ 100).
 
 ## Output
 
@@ -17,17 +17,18 @@ The frst line of the standard output should contain the biggest possible volume.
 
 **Input**
 
+```
 3
-
 2
-
 3
-
 4
+```
 
 **Output**
 
+```
 99
+```
 
 **Limits**
 

@@ -6,8 +6,8 @@ Write a program that gives how long the guard who was on the longest time on dut
 
 ## Input
 
-The frst line of the standard input contains the count of guards (1≤N≤100), and the count of days (1≤M≤1000).
-The next N lines contain the frst day and the last day the given guard was on duty (1≤F,L≤M) separated by a space.
+The frst line of the standard input contains the count of guards (1 $\le$ N $\le$ 100), and the count of days (1 $\le$ M $\le$ 1,000).
+The next N lines contain the frst day and the last day the given guard was on duty (1 $\le$ F,L $\le$ M) separated by a space.
 
 ## Output
 
@@ -17,21 +17,20 @@ The frst line of the standard output should contain the number of days that the 
 
 **Input**
 
+```
 6 5
-
 1 3
-
 6 6
-
 1 2
-
 2 3
-
 3 4
+```
 
 **Output**
 
+```
 3
+```
 
 **Limits**
 
@@ -39,4 +38,4 @@ Time limit: 0.1 second
 
 Memory limit: 32 MB
 
-Evaluation: In 40% of tests, the count of data is ≤20
+Evaluation: In 40% of tests, the count of data is  $\le$ 20
