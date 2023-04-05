@@ -6,18 +6,16 @@ We have N phone numbers, and we would like to know how many of those are mirror
 phone number.
 
 A mirror phones number is defned as the following:
-
 - the phone number is the same read from backwards (eg. 11233211 or 84122148)
-
 - in the case of non-Budapest phone numbers the prefix is the same backwards (eg. 66123456), or the part without the prefi is the same backwards (eg. 72123321)
-
 
 Write a program that writes the mirror phone numbers on the output.
 
 ## Input
 
-The frst line of the standard input contains the count of phone numbers (1 $\le$ N $\le$ 10,000).
-The next N lines each contain a phone numberx Each phone number consists of 8 digits.
+The first line of the standard input contains the count of phone numbers (1 $\le$ N $\le$ 10,000).
+The next N lines each contain a phone number.
+Each phone number consists of 8 digits.
 
 ## Output
 
@@ -45,6 +43,7 @@ Each line of the output should contain one mirror phone number.
 ```
 13977931
 88922988
+33842127
 56362263
 ```
 
