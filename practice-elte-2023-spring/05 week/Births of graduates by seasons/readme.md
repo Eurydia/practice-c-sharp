@@ -1,19 +1,23 @@
 # Births of graduates by seasons
 
-A university stores information of its graduates: the birth date (year, month, day), the start year of the university studies and the year of graduation.
+A university stores information of its graduates: 
+the birth date (year, month, day), 
+the start year of the university studies, and 
+the year of graduation.
 
 Write a program that gives the count of students who were born in each season.
 
 ## Input
-The frst line of the standard input contains the count of graduates (1 $\le$ N $\le$ 100).
+
+The first line of the standard input contains the count of graduates (1 $\le$ N $\le$ 100).
 The next N lines contain the data about a graduate each, in the form of 5 integers separated by spaces.
-The frst three numbers are the parts of birth date: year (1950 $\le$ Y $\le$ 2000), month (1 $\le$ M $\le$ 12) and day (1 $\le$ D $\le$ 30).
+The first three numbers are the parts of birth date: year (1950 $\le$ Y $\le$ 2000), month (1 $\le$ M $\le$ 12), and day (1 $\le$ D $\le$ 30).
 The fourth number is the start year (2000 $\le$ S $\lt$ 2020), and the last number is the year of the graduation (S $\le$ G $\lt$ 2020).
 
 ## Output
 
 The first line of the standard output should contain the count of graduates born in
-spring, summer, autumn and winter (in this order).
+spring, summer, autumn, and winter (in this order).
 
 ## Example
 
@@ -41,4 +45,4 @@ Time limit: 0.1 second
 
 Memory limit: 32 MB
 
-Evaluation: In 40% of tests, the count of data is  $\le$ 20
+Evaluation: In 40% of tests, the count of data is $\le$ 20
