@@ -37,7 +37,7 @@ class Program
 
         Console.Write($"{counter}");
         for (i = 0; i < counter; i++)
-        {
+        {   
             Console.Write($" {result[i]}");
         }
         Console.Write($"\n");
