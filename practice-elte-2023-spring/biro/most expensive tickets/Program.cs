@@ -16,7 +16,6 @@ class Program
         int[] prices = new int[N];
         int[] result = new int[N];
 
-
         for (i = 0; i < N; i++)
         {
             buffer = Console.ReadLine();
@@ -37,7 +36,7 @@ class Program
 
         Console.Write($"{counter}");
         for (i = 0; i < counter; i++)
-        {   
+        {
             Console.Write($" {result[i]}");
         }
         Console.Write($"\n");
