@@ -1,11 +1,11 @@
 ﻿public struct Ticket
 {
-    public int distance { get; }
-    public int price { get; }
+    public int distance;
+    public int price;
     public Ticket(int d, int p)
     {
-        distance = d;
-        price = p;
+        this.distance = d;
+        this.price = p;
     }
 }
 
