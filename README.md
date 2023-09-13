@@ -1,2 +1,3 @@
 # practice-c-sharp
-A repository for C# practices
+
+A collection of C# exercises.
